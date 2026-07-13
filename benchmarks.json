@@ -1,0 +1,37 @@
+{
+  "kbVersion": 1,
+  "kind": "benchmarks",
+  "comment": "Soft readiness bands — advisory only, rendered differently, never gating. All requirements implicitly soft.",
+  "data": [
+    {
+      "id": "cg_readiness",
+      "name": "Corrupted Gauntlet readiness",
+      "soft": [
+        {"type": "skill", "skill": "RANGED", "level": 78, "soft": true},
+        {"type": "skill", "skill": "MAGIC", "level": 75, "soft": true},
+        {"type": "skill", "skill": "DEFENCE", "level": 70, "soft": true},
+        {"type": "kc", "boss": "crystalline hunllef", "count": 5, "soft": true}
+      ],
+      "notes": "CG is self-supplied inside; prep = stats + regular-Gauntlet practice, not gear."
+    },
+    {
+      "id": "toa_entry",
+      "name": "ToA entry-mode readiness",
+      "soft": [
+        {"type": "skill", "skill": "RANGED", "level": 75, "soft": true},
+        {"type": "skill", "skill": "MAGIC", "level": 77, "soft": true},
+        {"type": "skill", "skill": "PRAYER", "level": 70, "soft": true}
+      ],
+      "notes": "150-invocation farming point comes much later; entry mode is learnable well below these bands."
+    },
+    {
+      "id": "whisperer_readiness",
+      "name": "The Whisperer readiness",
+      "soft": [
+        {"type": "skill", "skill": "MAGIC", "level": 85, "soft": true},
+        {"type": "skill", "skill": "HITPOINTS", "level": 85, "soft": true}
+      ],
+      "notes": "Shadow-of-the-storm mechanics punish low HP pools hardest of the DT2 four."
+    }
+  ]
+}

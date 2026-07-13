@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ironman Progression Helper — goal-graph node",
+  "description": "One node of the hand-encoded goal graph (goals.json data entries). The Java loader (GoalGraphLoader) enforces the same rules and fails loudly; this file is the documentation of record and works with external JSON-schema tooling.",
+  "type": "object",
+  "required": ["id", "category", "stage", "weight"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Stable snake_case identifier, unique across the graph."
+    },
+    "name": {"type": "string", "description": "Display name."},
+    "category": {
+      "enum": ["quest", "skill", "gear", "boss", "unlock", "diary", "clog", "supply", "grind"]
+    },
+    "stage": {
+      "enum": ["early", "mid", "late"],
+      "description": "2026-meta account stage this goal belongs to."
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "Meta worth-it weight (10 = account-defining)."
+    },
+    "requirements": {
+      "$ref": "#/definitions/requirement",
+      "description": "HARD gate, serialised engine requirement tree."
+    },
+    "soft": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/requirement"},
+      "description": "Advisory benchmarks — never gate resolution."
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {"type": "array", "items": {"$ref": "#/definitions/requirement"}},
+      "description": "OR-groups: each inner array is one complete alternative satisfaction path."
+    },
+    "unlocks": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Node ids this goal opens up (forward edges for fan-out scoring)."
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "For consumable/supply nodes: how many."
+    },
+    "notes": {"type": "string"}
+  },
+  "definitions": {
+    "requirement": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {"enum": ["skill", "quest", "varbit", "item", "itemGroup", "kc", "diary", "ca", "all", "any", "not"]},
+        "soft": {"type": "boolean"},
+        "skill": {"type": "string", "description": "RuneLite Skill enum name (type=skill)"},
+        "level": {"type": "integer", "description": "type=skill"},
+        "quest": {"type": "string", "description": "RuneLite Quest enum name (type=quest)"},
+        "state": {"enum": ["IN_PROGRESS", "FINISHED"], "description": "type=quest, default FINISHED"},
+        "label": {"type": "string", "description": "GameIds unlock label (type=varbit)"},
+        "min": {"type": "integer", "description": "type=varbit, default 1"},
+        "name": {"type": "string", "description": "display name (type=item)"},
+        "itemIds": {"type": "array", "items": {"type": "integer"}, "description": "type=item"},
+        "group": {"type": "string", "description": "item-groups.json group name (type=itemGroup)"},
+        "quantity": {"type": "integer", "description": "type=item/itemGroup, default 1"},
+        "boss": {"type": "string", "description": "normalized boss name (type=kc)"},
+        "count": {"type": "integer", "description": "type=kc"},
+        "key": {"type": "string", "description": "REGION_TIER (type=diary)"},
+        "tier": {"type": "string", "description": "CA tier name (type=ca)"},
+        "children": {"type": "array", "items": {"$ref": "#/definitions/requirement"}, "description": "type=all/any"},
+        "child": {"$ref": "#/definitions/requirement", "description": "type=not"}
+      }
+    }
+  }
+}

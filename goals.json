@@ -1,0 +1,142 @@
+{
+  "kbVersion": 1,
+  "kind": "goals",
+  "comment": "Hand-encoded 2026-meta goal graph seed (structure-first pass from the plan doc; content to be curated). Schema: kb/goal-node.schema.json. Weights: 10 = account-defining.",
+  "data": [
+    {
+      "id": "zombie_axe",
+      "name": "Zombie axe",
+      "category": "gear",
+      "stage": "early",
+      "weight": 8,
+      "requirements": {"type": "all", "children": [
+        {"type": "quest", "quest": "DEFENDER_OF_VARROCK"},
+        {"type": "skill", "skill": "ATTACK", "level": 65},
+        {"type": "skill", "skill": "SMITHING", "level": 65}
+      ]},
+      "notes": "2026 early-meta melee mainhand: broken zombie axe from armoured zombies, smith at 65 (boostable). Carries to whip-tier."
+    },
+    {
+      "id": "moons_of_peril_armour",
+      "name": "Moons of Peril armour sets",
+      "category": "gear",
+      "stage": "early",
+      "weight": 8,
+      "requirements": {"type": "quest", "quest": "PERILOUS_MOONS"},
+      "soft": [
+        {"type": "skill", "skill": "DEFENCE", "level": 40},
+        {"type": "kc", "boss": "lunar chest", "count": 100}
+      ],
+      "notes": "Blood moon / blue moon / eclipse sets from Lunar Chests — early-game hybrid armour line, no GE needed."
+    },
+    {
+      "id": "royal_titans_prayers",
+      "name": "Royal Titans prayers (Dead Eye / Mystic Vigor)",
+      "category": "unlock",
+      "stage": "early",
+      "weight": 7,
+      "soft": [
+        {"type": "skill", "skill": "PRAYER", "level": 60},
+        {"type": "kc", "boss": "the royal titans", "count": 30}
+      ],
+      "notes": "Prayer scroll drops from the Royal Titans duo; cheap early power spike for ranged/magic."
+    },
+    {
+      "id": "song_of_the_elves",
+      "name": "Song of the Elves",
+      "category": "quest",
+      "stage": "mid",
+      "weight": 9,
+      "requirements": {"type": "all", "children": [
+        {"type": "quest", "quest": "MOURNINGS_END_PART_II"},
+        {"type": "quest", "quest": "MAKING_HISTORY"},
+        {"type": "quest", "quest": "DRUIDIC_RITUAL"},
+        {"type": "skill", "skill": "AGILITY", "level": 70},
+        {"type": "skill", "skill": "CONSTRUCTION", "level": 70},
+        {"type": "skill", "skill": "FARMING", "level": 70},
+        {"type": "skill", "skill": "HERBLORE", "level": 70},
+        {"type": "skill", "skill": "HUNTER", "level": 70},
+        {"type": "skill", "skill": "MINING", "level": 70},
+        {"type": "skill", "skill": "SMITHING", "level": 70},
+        {"type": "skill", "skill": "WOODCUTTING", "level": 70}
+      ]},
+      "unlocks": ["corrupted_bowfa", "cg_practice_supplies"],
+      "notes": "Gateway to Prifddinas, Zalcano, Gauntlet. Quest prereqs beyond the direct three resolve from derived quests.json."
+    },
+    {
+      "id": "cg_practice_supplies",
+      "name": "Gauntlet practice supplies",
+      "category": "supply",
+      "stage": "mid",
+      "weight": 5,
+      "quantity": 20,
+      "requirements": {"type": "itemGroup", "group": "prayer_potion", "quantity": 20},
+      "notes": "Consumables for learning attempts (CG itself is self-supplied inside). Re-enters the plan when stock depletes."
+    },
+    {
+      "id": "corrupted_bowfa",
+      "name": "Bow of faerdhinen (corrupted)",
+      "category": "gear",
+      "stage": "mid",
+      "weight": 10,
+      "requirements": {"type": "quest", "quest": "SONG_OF_THE_ELVES"},
+      "soft": [
+        {"type": "skill", "skill": "RANGED", "level": 78},
+        {"type": "skill", "skill": "DEFENCE", "level": 70},
+        {"type": "skill", "skill": "MAGIC", "level": 75}
+      ],
+      "alternatives": [
+        [{"type": "kc", "boss": "corrupted gauntlet", "count": 50}],
+        [{"type": "kc", "boss": "zalcano", "count": 150}]
+      ],
+      "notes": "The mid-game account pivot. Enhanced seed ~1/50 CG (alternatives = crystal shard sources for the corruption cost: CG runs or Zalcano)."
+    },
+    {
+      "id": "toa_fang_first",
+      "name": "ToA — Osmumten's fang first",
+      "category": "gear",
+      "stage": "mid",
+      "weight": 9,
+      "soft": [
+        {"type": "skill", "skill": "RANGED", "level": 80},
+        {"type": "skill", "skill": "MAGIC", "level": 80},
+        {"type": "kc", "boss": "tombs of amascut", "count": 50}
+      ],
+      "notes": "2026 raid ordering: fang-first ToA before CoX/ToB investment. Entry-level invocations viable pre-bowfa; scales after."
+    },
+    {
+      "id": "dt2_rings",
+      "name": "DT2 vestige rings",
+      "category": "gear",
+      "stage": "late",
+      "weight": 9,
+      "requirements": {"type": "quest", "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"},
+      "soft": [
+        {"type": "skill", "skill": "MAGIC", "level": 90},
+        {"type": "skill", "skill": "RANGED", "level": 90}
+      ],
+      "notes": "Ultor/Magus/Venator/Bellator vestige grinds behind the four DT2 bosses."
+    },
+    {
+      "id": "yama_oathplate",
+      "name": "Yama / Oathplate armour",
+      "category": "gear",
+      "stage": "late",
+      "weight": 9,
+      "soft": [
+        {"type": "skill", "skill": "ATTACK", "level": 90},
+        {"type": "skill", "skill": "STRENGTH", "level": 90},
+        {"type": "kc", "boss": "yama", "count": 100}
+      ],
+      "notes": "2026 late-game melee line — Oathplate via Yama makes Bandos skippable entirely."
+    },
+    {
+      "id": "sailing_track",
+      "name": "Sailing (optional parallel track)",
+      "category": "skill",
+      "stage": "mid",
+      "weight": 4,
+      "notes": "Optional parallel progression per 2026 meta — schedule as burnout-resistance interleave, never on the critical path."
+    }
+  ]
+}

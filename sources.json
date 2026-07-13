@@ -1,0 +1,1172 @@
+{
+  "kbVersion": 1,
+  "kind": "sources",
+  "data": {
+    "Bow of faerdhinen": {
+      "drops": []
+    },
+    "Broken zombie axe": {
+      "drops": [
+        {
+          "source": "Armoured zombie (Zemouregal's Base)",
+          "level": "82",
+          "quantity": "1",
+          "rarity": "1/800"
+        },
+        {
+          "source": "Armoured zombie (Zemouregal's Fort)",
+          "level": "105",
+          "quantity": "1",
+          "rarity": "1/600"
+        }
+      ]
+    },
+    "Crystal shard": {
+      "drops": [
+        {
+          "source": "Teak tree Prifddinas",
+          "level": "35",
+          "quantity": "1",
+          "rarity": "1/40"
+        },
+        {
+          "source": "Iron rocks Prifddinas",
+          "level": "15",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Magic tree",
+          "level": "75",
+          "quantity": "1",
+          "rarity": "1/40"
+        },
+        {
+          "source": "Dark beast",
+          "level": "182",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Kurask",
+          "level": "106",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Yew tree Prifddinas",
+          "level": "60",
+          "quantity": "1",
+          "rarity": "1/40"
+        },
+        {
+          "source": "Waterfiend",
+          "level": "115",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Mahogany tree Prifddinas",
+          "level": "50",
+          "quantity": "1",
+          "rarity": "1/40"
+        },
+        {
+          "source": "Coal rocks Prifddinas",
+          "level": "30",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Silver rocks Prifddinas",
+          "level": "20",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Gold rocks Prifddinas",
+          "level": "40",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Mithril rocks Prifddinas",
+          "level": "55",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Adamantite rocks Prifddinas",
+          "level": "70",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Runite rocks Prifddinas",
+          "level": "85",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Greater Nechryael Regular",
+          "level": "200",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Mutated Bloodveld",
+          "level": "123",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Night beast",
+          "level": "374",
+          "quantity": "6–10",
+          "rarity": "Always"
+        },
+        {
+          "source": "King kurask",
+          "level": "295",
+          "quantity": "6–10",
+          "rarity": "Always"
+        },
+        {
+          "source": "Nechryarch Greater",
+          "level": "300",
+          "quantity": "6–10",
+          "rarity": "Always"
+        },
+        {
+          "source": "Insatiable mutated Bloodveld",
+          "level": "278",
+          "quantity": "6–10",
+          "rarity": "Always"
+        },
+        {
+          "source": "Elf (Thieving)",
+          "level": "85",
+          "quantity": "1",
+          "rarity": "1/35"
+        },
+        {
+          "source": "Zalcano",
+          "level": "336",
+          "quantity": "1–3",
+          "rarity": "Always"
+        },
+        {
+          "source": "Crystal impling jar",
+          "level": "N/A",
+          "quantity": "30–40",
+          "rarity": "1/18"
+        },
+        {
+          "source": "Elven Crystal Chest",
+          "level": "N/A",
+          "quantity": "13–19",
+          "rarity": "20/256"
+        },
+        {
+          "source": "Elven Crystal Chest",
+          "level": "N/A",
+          "quantity": "25–35",
+          "rarity": "17/256"
+        },
+        {
+          "source": "Elven Crystal Chest",
+          "level": "N/A",
+          "quantity": "7–9",
+          "rarity": "17/256"
+        },
+        {
+          "source": "Crystal impling",
+          "level": "80; 90",
+          "quantity": "30–40",
+          "rarity": "1/18"
+        },
+        {
+          "source": "Reward Chest (The Gauntlet) Regular",
+          "level": "N/A",
+          "quantity": "5–9",
+          "rarity": "Always"
+        },
+        {
+          "source": "Reward Chest (The Gauntlet) Corrupted",
+          "level": "N/A",
+          "quantity": "7–12",
+          "rarity": "Always"
+        },
+        {
+          "source": "Crystal tree",
+          "level": "74",
+          "quantity": "16–20",
+          "rarity": "Always"
+        },
+        {
+          "source": "Crystal tree",
+          "level": "74",
+          "quantity": "20–24",
+          "rarity": "Always"
+        },
+        {
+          "source": "Crystal tree",
+          "level": "74",
+          "quantity": "24–28",
+          "rarity": "Always"
+        },
+        {
+          "source": "Crystal tree",
+          "level": "74",
+          "quantity": "28–32",
+          "rarity": "Always"
+        },
+        {
+          "source": "Guard (Prifddinas)",
+          "level": "108",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Iorwerth Warrior Iorwerth Dungeon",
+          "level": "108",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        },
+        {
+          "source": "Soft clay rocks",
+          "level": "70",
+          "quantity": "1",
+          "rarity": "1/65"
+        },
+        {
+          "source": "Portal (Prifddinas Agility Course)",
+          "level": "75",
+          "quantity": "1",
+          "rarity": "Always"
+        },
+        {
+          "source": "Moss Giant (Iorwerth Dungeon)",
+          "level": "84",
+          "quantity": "3–5",
+          "rarity": "1/24"
+        }
+      ]
+    },
+    "Enhanced crystal weapon seed": {
+      "drops": [
+        {
+          "source": "Reward Chest (The Gauntlet) Regular",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/2,000"
+        },
+        {
+          "source": "Reward Chest (The Gauntlet) Corrupted",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/400"
+        }
+      ]
+    },
+    "Prayer potion": {
+      "drops": [
+        {
+          "source": "Barrel (Shaman Caves)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/100"
+        },
+        {
+          "source": "Mammoth",
+          "level": "80",
+          "quantity": "1",
+          "rarity": "5/128"
+        },
+        {
+          "source": "Tortured gorilla",
+          "level": "141; 142",
+          "quantity": "1",
+          "rarity": "61/1,000"
+        },
+        {
+          "source": "Maniacal Monkey Archer",
+          "level": "132",
+          "quantity": "1",
+          "rarity": "2/20"
+        },
+        {
+          "source": "Maniacal monkey",
+          "level": "140",
+          "quantity": "1",
+          "rarity": "2/20"
+        },
+        {
+          "source": "Elite Black Knight",
+          "level": "138",
+          "quantity": "1–3",
+          "rarity": "14/122"
+        },
+        {
+          "source": "Elite Dark Mage",
+          "level": "96",
+          "quantity": "1",
+          "rarity": "16/117"
+        },
+        {
+          "source": "Elite Dark Ranger",
+          "level": "96",
+          "quantity": "1",
+          "rarity": "16/117"
+        },
+        {
+          "source": "Elite Dark Warrior",
+          "level": "96",
+          "quantity": "1",
+          "rarity": "16/117"
+        },
+        {
+          "source": "Frost Nagua",
+          "level": "104",
+          "quantity": "1",
+          "rarity": "2/34"
+        },
+        {
+          "source": "Dagannoth Rex",
+          "level": "303",
+          "quantity": "1",
+          "rarity": "1/128"
+        },
+        {
+          "source": "Spiritual ranger Zaros",
+          "level": "158",
+          "quantity": "1",
+          "rarity": "9/128"
+        },
+        {
+          "source": "Spiritual warrior Zaros",
+          "level": "158",
+          "quantity": "1",
+          "rarity": "9/128"
+        },
+        {
+          "source": "Tormented Demon",
+          "level": "450",
+          "quantity": "2",
+          "rarity": "1/51"
+        },
+        {
+          "source": "Chest (Rogues' Castle) Medium Wilderness Diary",
+          "level": "84",
+          "quantity": "1",
+          "rarity": "2/66"
+        },
+        {
+          "source": "Chest (Rogues' Castle) Hard Wilderness Diary",
+          "level": "84",
+          "quantity": "1",
+          "rarity": "2/66"
+        },
+        {
+          "source": "Coffin (Hallowed Sepulchre) Low",
+          "level": "66",
+          "quantity": "1",
+          "rarity": "1/10"
+        },
+        {
+          "source": "Hallowed sack",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "5 × 1/10"
+        },
+        {
+          "source": "Blood Reaver",
+          "level": "161; 174",
+          "quantity": "1",
+          "rarity": "9/128"
+        },
+        {
+          "source": "Ninja impling",
+          "level": "74; 84",
+          "quantity": "4 (noted)",
+          "rarity": "1/19"
+        },
+        {
+          "source": "Ninja impling jar",
+          "level": "N/A",
+          "quantity": "4 (noted)",
+          "rarity": "1/19"
+        },
+        {
+          "source": "Demonic gorilla",
+          "level": "275",
+          "quantity": "2",
+          "rarity": "40/500"
+        },
+        {
+          "source": "Deranged archaeologist",
+          "level": "276",
+          "quantity": "1",
+          "rarity": "8/131"
+        },
+        {
+          "source": "Yama",
+          "level": "1238",
+          "quantity": "2",
+          "rarity": "7.5/95.11"
+        },
+        {
+          "source": "Grubby Chest",
+          "level": "N/A",
+          "quantity": "2",
+          "rarity": "3/20"
+        },
+        {
+          "source": "The Nightmare",
+          "level": "814",
+          "quantity": "1–10",
+          "rarity": "5/100"
+        },
+        {
+          "source": "Phosani's Nightmare",
+          "level": "1024",
+          "quantity": "8–15",
+          "rarity": "5/100"
+        },
+        {
+          "source": "Vardorvis",
+          "level": "572; 784; 1136",
+          "quantity": "1",
+          "rarity": "1/5.3"
+        },
+        {
+          "source": "Duke Sucellus",
+          "level": "538; 758; 1099",
+          "quantity": "1",
+          "rarity": "1/5.4"
+        },
+        {
+          "source": "The Whisperer",
+          "level": "587; 791; 1146",
+          "quantity": "1",
+          "rarity": "1/5.5"
+        },
+        {
+          "source": "The Leviathan",
+          "level": "593; 798; 1157",
+          "quantity": "1",
+          "rarity": "1/5.4"
+        },
+        {
+          "source": "Phantom Muspah",
+          "level": "741",
+          "quantity": "2–3",
+          "rarity": "1/9"
+        },
+        {
+          "source": "Adept potion pack",
+          "level": "N/A",
+          "quantity": "2–3 (noted)",
+          "rarity": "4 × 2/62"
+        },
+        {
+          "source": "Apprentice potion pack",
+          "level": "N/A",
+          "quantity": "2–4 (noted)",
+          "rarity": "4 × 1/85"
+        },
+        {
+          "source": "Expert potion pack",
+          "level": "N/A",
+          "quantity": "2–4 (noted)",
+          "rarity": "4 × 3/83"
+        },
+        {
+          "source": "Amoxliatl Post-quest",
+          "level": "",
+          "quantity": "1",
+          "rarity": "2 × 2/58"
+        },
+        {
+          "source": "Kalphite Queen",
+          "level": "333",
+          "quantity": "2",
+          "rarity": "1/9"
+        },
+        {
+          "source": "Skeletal Wyvern",
+          "level": "140",
+          "quantity": "2",
+          "rarity": "7/128"
+        },
+        {
+          "source": "Commander Zilyana",
+          "level": "596",
+          "quantity": "3",
+          "rarity": "8/127"
+        },
+        {
+          "source": "Crazy archaeologist",
+          "level": "204",
+          "quantity": "1",
+          "rarity": "8/128"
+        },
+        {
+          "source": "Chaos Fanatic",
+          "level": "202",
+          "quantity": "1",
+          "rarity": "8/128"
+        },
+        {
+          "source": "Thermonuclear smoke devil",
+          "level": "301",
+          "quantity": "2",
+          "rarity": "1/107"
+        },
+        {
+          "source": "Nex",
+          "level": "1001",
+          "quantity": "3",
+          "rarity": "Common"
+        },
+        {
+          "source": "Tormented Demon",
+          "level": "450",
+          "quantity": "1",
+          "rarity": "1/51"
+        },
+        {
+          "source": "Brassican Mage",
+          "level": "140",
+          "quantity": "1",
+          "rarity": "2/50"
+        },
+        {
+          "source": "Ancient Wizard",
+          "level": "98; 112",
+          "quantity": "1",
+          "rarity": "2/50"
+        },
+        {
+          "source": "Spitting Wyvern",
+          "level": "139",
+          "quantity": "1",
+          "rarity": "7/123"
+        },
+        {
+          "source": "Taloned Wyvern",
+          "level": "147",
+          "quantity": "1",
+          "rarity": "7/123"
+        },
+        {
+          "source": "Long-tailed Wyvern",
+          "level": "152",
+          "quantity": "1",
+          "rarity": "7/123"
+        },
+        {
+          "source": "Grotesque Guardians",
+          "level": "",
+          "quantity": "1–2",
+          "rarity": "2 × 4/142"
+        },
+        {
+          "source": "Coffin (Hallowed Sepulchre) Mid",
+          "level": "66",
+          "quantity": "1",
+          "rarity": "1/10"
+        },
+        {
+          "source": "Hallowed sack",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/10"
+        },
+        {
+          "source": "Scurrius MVP",
+          "level": "200; 250",
+          "quantity": "1",
+          "rarity": "6/100"
+        },
+        {
+          "source": "Araxxor",
+          "level": "890",
+          "quantity": "1",
+          "rarity": "1/8"
+        },
+        {
+          "source": "Eldric the Ice King",
+          "level": "350",
+          "quantity": "2–4",
+          "rarity": "2 × 2/56"
+        },
+        {
+          "source": "Branda the Fire Queen",
+          "level": "350",
+          "quantity": "2–4",
+          "rarity": "2 × 2/55"
+        },
+        {
+          "source": "Lost teak crate",
+          "level": "50",
+          "quantity": "1",
+          "rarity": "1/8"
+        }
+      ]
+    },
+    "Rune platebody": {
+      "drops": [
+        {
+          "source": "General Graardor",
+          "level": "624",
+          "quantity": "1",
+          "rarity": "8/127"
+        },
+        {
+          "source": "Animated Rune Armour",
+          "level": "138",
+          "quantity": "1",
+          "rarity": "Always"
+        },
+        {
+          "source": "Reward casket (hard)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/27.1"
+        },
+        {
+          "source": "Callisto",
+          "level": "470",
+          "quantity": "4 (noted)",
+          "rarity": "2/126"
+        },
+        {
+          "source": "Reward casket (elite)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/32.3"
+        },
+        {
+          "source": "Tormented Demon",
+          "level": "450",
+          "quantity": "1",
+          "rarity": "4/51"
+        },
+        {
+          "source": "Cerberus",
+          "level": "318",
+          "quantity": "1",
+          "rarity": "5/130"
+        },
+        {
+          "source": "Abyssal Sire",
+          "level": "350",
+          "quantity": "2 (noted)",
+          "rarity": "4/139"
+        },
+        {
+          "source": "Brutal blue dragon",
+          "level": "271",
+          "quantity": "1",
+          "rarity": "1/128"
+        },
+        {
+          "source": "Brutal black dragon",
+          "level": "318",
+          "quantity": "1",
+          "rarity": "1/128"
+        },
+        {
+          "source": "Brutal red dragon",
+          "level": "289",
+          "quantity": "1",
+          "rarity": "1/128"
+        },
+        {
+          "source": "Skotizo",
+          "level": "321",
+          "quantity": "3 (noted)",
+          "rarity": "7/100"
+        },
+        {
+          "source": "Rune dragon",
+          "level": "380",
+          "quantity": "1",
+          "rarity": "9/127"
+        },
+        {
+          "source": "Revenant dragon",
+          "level": "135",
+          "quantity": "2",
+          "rarity": "1/49.75"
+        },
+        {
+          "source": "Revenant hellhound",
+          "level": "90",
+          "quantity": "2",
+          "rarity": "1/95.86"
+        },
+        {
+          "source": "Revenant ork",
+          "level": "105",
+          "quantity": "2",
+          "rarity": "1/72.6"
+        },
+        {
+          "source": "Revenant pyrefiend",
+          "level": "52",
+          "quantity": "2",
+          "rarity": "1/204.51"
+        },
+        {
+          "source": "Revenant dark beast",
+          "level": "120",
+          "quantity": "2",
+          "rarity": "1/61.88"
+        },
+        {
+          "source": "Revenant hobgoblin",
+          "level": "60",
+          "quantity": "2",
+          "rarity": "1/180.73"
+        },
+        {
+          "source": "Revenant knight",
+          "level": "126",
+          "quantity": "2",
+          "rarity": "1/53.23"
+        },
+        {
+          "source": "Revenant imp",
+          "level": "7",
+          "quantity": "2",
+          "rarity": "1/1,512.5"
+        },
+        {
+          "source": "Revenant demon",
+          "level": "98",
+          "quantity": "2",
+          "rarity": "1/87.52"
+        },
+        {
+          "source": "Revenant goblin",
+          "level": "15",
+          "quantity": "2",
+          "rarity": "1/863.89"
+        },
+        {
+          "source": "Revenant cyclops",
+          "level": "82",
+          "quantity": "2",
+          "rarity": "1/105.95"
+        },
+        {
+          "source": "Hydra",
+          "level": "194",
+          "quantity": "1",
+          "rarity": "1/128"
+        },
+        {
+          "source": "Alchemical Hydra",
+          "level": "426",
+          "quantity": "1",
+          "rarity": "2 × 3/101"
+        },
+        {
+          "source": "Yama",
+          "level": "1238",
+          "quantity": "8 (noted)",
+          "rarity": "3/95.11"
+        },
+        {
+          "source": "Brimstone chest",
+          "level": "N/A",
+          "quantity": "1–2 (noted)",
+          "rarity": "3/60"
+        },
+        {
+          "source": "Larran's big chest",
+          "level": "N/A",
+          "quantity": "2–3 (noted)",
+          "rarity": "3/60"
+        },
+        {
+          "source": "Larran's small chest",
+          "level": "N/A",
+          "quantity": "1–2 (noted)",
+          "rarity": "3/60"
+        },
+        {
+          "source": "Sarachnis",
+          "level": "318",
+          "quantity": "1",
+          "rarity": "2/100"
+        },
+        {
+          "source": "Reward Chest (The Gauntlet) Regular",
+          "level": "N/A",
+          "quantity": "1–2 (noted)",
+          "rarity": "2 × 1/24"
+        },
+        {
+          "source": "Reward Chest (The Gauntlet) Corrupted",
+          "level": "N/A",
+          "quantity": "2 (noted)",
+          "rarity": "3 × 1/24"
+        },
+        {
+          "source": "Monumental chest",
+          "level": "N/A",
+          "quantity": "4 (noted)",
+          "rarity": "3 × 1/30"
+        },
+        {
+          "source": "Coffin (Hallowed Sepulchre) High",
+          "level": "66",
+          "quantity": "1",
+          "rarity": "1/10"
+        },
+        {
+          "source": "Grand Hallowed Coffin",
+          "level": "66",
+          "quantity": "1",
+          "rarity": "1/10"
+        },
+        {
+          "source": "Colossal Hydra",
+          "level": "309",
+          "quantity": "1",
+          "rarity": "3 × 1/128"
+        },
+        {
+          "source": "Hallowed sack",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2 × 1/10"
+        },
+        {
+          "source": "Casket (Reward pool)",
+          "level": "N/A",
+          "quantity": "2–3 (noted)",
+          "rarity": "1/230"
+        },
+        {
+          "source": "Gold Chest (red)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/143.91; 2/142.17"
+        },
+        {
+          "source": "Gold Chest (crimson)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/144.08; 2/142.35"
+        },
+        {
+          "source": "Gold Chest (brown)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/143.99; 2/142.26"
+        },
+        {
+          "source": "Gold Chest (black)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/144.18; 2/142.44"
+        },
+        {
+          "source": "Gold Chest (purple)",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/144.28; 2/142.54"
+        },
+        {
+          "source": "Revenant maledictus",
+          "level": "397",
+          "quantity": "2",
+          "rarity": "1/49.75"
+        },
+        {
+          "source": "Rewards Chest (Fortis Colosseum) Wave 2",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/7"
+        },
+        {
+          "source": "Rewards Chest (Fortis Colosseum) Wave 3",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "9/70"
+        },
+        {
+          "source": "Rewards Chest (Fortis Colosseum) Wave 4",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "5,535/43,400"
+        },
+        {
+          "source": "Chest (moon key)",
+          "level": "N/A",
+          "quantity": "6 (noted)",
+          "rarity": "10/107"
+        },
+        {
+          "source": "Amoxliatl Post-quest",
+          "level": "",
+          "quantity": "1",
+          "rarity": "2 × 1/58"
+        }
+      ]
+    },
+    "Saradomin brew": {
+      "drops": [
+        {
+          "source": "Demonic gorilla",
+          "level": "275",
+          "quantity": "1",
+          "rarity": "25/500"
+        },
+        {
+          "source": "Grubby Chest",
+          "level": "N/A",
+          "quantity": "3",
+          "rarity": "2 × 1/20"
+        },
+        {
+          "source": "Commander Zilyana",
+          "level": "596",
+          "quantity": "3",
+          "rarity": "6/127"
+        },
+        {
+          "source": "Abyssal Sire",
+          "level": "350",
+          "quantity": "6",
+          "rarity": "2/139"
+        },
+        {
+          "source": "The Nightmare",
+          "level": "814",
+          "quantity": "1–10",
+          "rarity": "5/100"
+        },
+        {
+          "source": "Phosani's Nightmare",
+          "level": "1024",
+          "quantity": "8–15",
+          "rarity": "5/100"
+        },
+        {
+          "source": "Expert potion pack",
+          "level": "N/A",
+          "quantity": "2–4 (noted)",
+          "rarity": "4 × 2/83"
+        },
+        {
+          "source": "Kalphite Queen",
+          "level": "333",
+          "quantity": "1",
+          "rarity": "1/9"
+        },
+        {
+          "source": "Nex",
+          "level": "1001",
+          "quantity": "1–10",
+          "rarity": "Common"
+        },
+        {
+          "source": "Reward casket (elite)",
+          "level": "N/A",
+          "quantity": "30 (noted)",
+          "rarity": "1/14,662.5"
+        },
+        {
+          "source": "Grotesque Guardians",
+          "level": "",
+          "quantity": "2",
+          "rarity": "2 × 8/142"
+        }
+      ]
+    },
+    "Stamina potion": {
+      "drops": [
+        {
+          "source": "Lost mahogany crate",
+          "level": "70",
+          "quantity": "1",
+          "rarity": "1/8"
+        },
+        {
+          "source": "Jekyll and Hyde Torstol",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "Always"
+        }
+      ]
+    },
+    "Super restore": {
+      "drops": [
+        {
+          "source": "Hydra",
+          "level": "194",
+          "quantity": "1–2",
+          "rarity": "6/128"
+        },
+        {
+          "source": "Colossal Hydra",
+          "level": "309",
+          "quantity": "1–2",
+          "rarity": "3 × 6/128"
+        },
+        {
+          "source": "Grubby Chest",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2 × 1/20"
+        },
+        {
+          "source": "K'ril Tsutsaroth",
+          "level": "650",
+          "quantity": "3",
+          "rarity": "8/127"
+        },
+        {
+          "source": "Spiritual mage Zaros",
+          "level": "182",
+          "quantity": "1",
+          "rarity": "9/128"
+        },
+        {
+          "source": "Alchemical Hydra",
+          "level": "426",
+          "quantity": "2",
+          "rarity": "2 × 7/101"
+        },
+        {
+          "source": "Grubby Chest",
+          "level": "N/A",
+          "quantity": "2",
+          "rarity": "1/20"
+        },
+        {
+          "source": "Phantom Muspah",
+          "level": "741",
+          "quantity": "2–3",
+          "rarity": "1/9"
+        },
+        {
+          "source": "Expert potion pack",
+          "level": "N/A",
+          "quantity": "2–4 (noted)",
+          "rarity": "4 × 2/83"
+        },
+        {
+          "source": "Kalphite Queen",
+          "level": "333",
+          "quantity": "1",
+          "rarity": "1/9"
+        },
+        {
+          "source": "Kamil",
+          "level": "154",
+          "quantity": "1",
+          "rarity": "Always"
+        },
+        {
+          "source": "Commander Zilyana",
+          "level": "596",
+          "quantity": "3",
+          "rarity": "6/127"
+        },
+        {
+          "source": "General Graardor",
+          "level": "624",
+          "quantity": "3",
+          "rarity": "8/127"
+        },
+        {
+          "source": "Reward casket (hard)",
+          "level": "N/A",
+          "quantity": "15 (noted)",
+          "rarity": "1/16,250"
+        },
+        {
+          "source": "Callisto",
+          "level": "470",
+          "quantity": "10 (noted)",
+          "rarity": "5/126"
+        },
+        {
+          "source": "Vet'ion",
+          "level": "454",
+          "quantity": "10 (noted)",
+          "rarity": "5/126"
+        },
+        {
+          "source": "Venenatis",
+          "level": "464",
+          "quantity": "10 (noted)",
+          "rarity": "5/126"
+        },
+        {
+          "source": "Jekyll and Hyde Cadantine",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "Always"
+        },
+        {
+          "source": "Nex",
+          "level": "1001",
+          "quantity": "1–5",
+          "rarity": "Common"
+        },
+        {
+          "source": "Reward casket (elite)",
+          "level": "N/A",
+          "quantity": "30 (noted)",
+          "rarity": "1/14,662.5"
+        },
+        {
+          "source": "Cerberus",
+          "level": "318",
+          "quantity": "2",
+          "rarity": "6/130"
+        },
+        {
+          "source": "Abyssal Sire",
+          "level": "350",
+          "quantity": "4",
+          "rarity": "5/139"
+        },
+        {
+          "source": "Ancient Wyvern",
+          "level": "210",
+          "quantity": "2",
+          "rarity": "8/132"
+        },
+        {
+          "source": "Artio",
+          "level": "320",
+          "quantity": "3",
+          "rarity": "5/128"
+        },
+        {
+          "source": "Calvar'ion",
+          "level": "264",
+          "quantity": "3",
+          "rarity": "5/128"
+        },
+        {
+          "source": "Spindel",
+          "level": "302",
+          "quantity": "3",
+          "rarity": "5/128"
+        }
+      ]
+    },
+    "Zombie axe": {
+      "drops": []
+    }
+  }
+}

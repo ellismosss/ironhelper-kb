@@ -1,0 +1,17 @@
+{
+  "kbVersion": 1,
+  "kind": "slayer",
+  "comment": "Master weightings + block/skip seed for the slayer advisor module. Weighting principle: never skip what gates the active goal.",
+  "data": {
+    "masters": [
+      {"name": "Turael", "weight": 1, "notes": "Point resets / task storage only."},
+      {"name": "Spria", "weight": 1, "notes": "Turael-tier alternative post-Sins."},
+      {"name": "Chaeldar", "weight": 4, "notes": "Bridge to Konar; fine pre-85 combat."},
+      {"name": "Konar", "weight": 6, "notes": "Brimstone keys; location-locked tasks — good gp/supply income mid-game."},
+      {"name": "Nieve/Steve", "weight": 8, "notes": "Default point farming master from ~85 combat."},
+      {"name": "Duradel", "weight": 9, "notes": "Post-Shilo, best task pool late; boss tasks."}
+    ],
+    "block": ["gargoyles-after-slayer-ring", "spiritual creatures", "hellhounds"],
+    "skip": ["mithril dragons", "steel dragons", "iron dragons", "black demons-if-no-goal"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "kbVersion": 1,
+  "kind": "xp_rates",
+  "comment": "skill x level-band x unlock-gates -> method + xp/hr. First-pass seed; rates to be curated. gates use the requirement schema.",
+  "data": [
+    {"skill": "AGILITY", "bandMin": 1, "bandMax": 47, "method": "Quests (recommended) then rooftop courses", "xpHr": 12000, "gates": []},
+    {"skill": "AGILITY", "bandMin": 48, "bandMax": 69, "method": "Falador -> Seers rooftops (Kandarin hard diary later)", "xpHr": 45000, "gates": []},
+    {"skill": "AGILITY", "bandMin": 70, "bandMax": 99, "method": "Hallowed Sepulchre (GP+xp) or Seers w/ diary", "xpHr": 65000, "gates": [{"type": "quest", "quest": "SINS_OF_THE_FATHER"}]},
+    {"skill": "HERBLORE", "bandMin": 1, "bandMax": 37, "method": "Quests (Druidic Ritual start) + attack potions from farm runs", "xpHr": 15000, "gates": [{"type": "quest", "quest": "DRUIDIC_RITUAL"}]},
+    {"skill": "HERBLORE", "bandMin": 38, "bandMax": 69, "method": "Prayer potions from ranarr farm runs; hunter rumours herbs", "xpHr": 40000, "gates": []},
+    {"skill": "CRAFTING", "bandMin": 46, "bandMax": 99, "method": "Superglass Make w/ giant seaweed + buckets of sand", "xpHr": 100000, "gates": [{"type": "quest", "quest": "LUNAR_DIPLOMACY"}]},
+    {"skill": "WOODCUTTING", "bandMin": 35, "bandMax": 99, "method": "Teak chop-and-drop / Forestry events for variety", "xpHr": 85000, "gates": []},
+    {"skill": "FISHING", "bandMin": 58, "bandMax": 99, "method": "Barbarian fishing (agi/str shared xp)", "xpHr": 50000, "gates": [{"type": "skill", "skill": "AGILITY", "level": 30}]},
+    {"skill": "MINING", "bandMin": 30, "bandMax": 70, "method": "Motherlode Mine (prospector + nuggets)", "xpHr": 33000, "gates": []},
+    {"skill": "SMITHING", "bandMin": 40, "bandMax": 99, "method": "Blast Furnace gold w/ goldsmith gauntlets", "xpHr": 250000, "gates": [{"type": "quest", "quest": "FAMILY_CREST"}]}
+  ]
+}

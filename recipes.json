@@ -1,0 +1,298 @@
+{
+  "kbVersion": 1,
+  "kind": "recipes",
+  "data": {
+    "Bow of faerdhinen": [
+      {
+        "skills": [
+          {
+            "skill": "Smithing",
+            "level": 82,
+            "boostable": true
+          },
+          {
+            "skill": "Crafting",
+            "level": 82,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Enhanced crystal weapon seed",
+            "quantity": 1
+          },
+          {
+            "name": "Crystal shard",
+            "quantity": 100
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Bow of faerdhinen",
+            "quantity": 1
+          }
+        ],
+        "facility": "Singing bowl",
+        "ticks": "5"
+      },
+      {
+        "skills": [],
+        "inputs": [
+          {
+            "name": "Bow of faerdhinen (c)",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Bow of faerdhinen#Inactive",
+            "quantity": 1
+          }
+        ],
+        "ticks": "0"
+      }
+    ],
+    "Prayer potion": [
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 38,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Ranarr potion (unf)",
+            "quantity": 1
+          },
+          {
+            "name": "Snape grass",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Prayer potion(3)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      }
+    ],
+    "Rune platebody": [
+      {
+        "skills": [
+          {
+            "skill": "Smithing",
+            "level": 99,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Runite bar",
+            "quantity": 5
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Rune platebody",
+            "quantity": 1
+          }
+        ],
+        "facility": "Anvil",
+        "tools": "Hammer",
+        "ticks": "5"
+      }
+    ],
+    "Saradomin brew": [
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 81,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Toadflax potion (unf)",
+            "quantity": 1
+          },
+          {
+            "name": "Crushed nest",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Saradomin brew(3)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      }
+    ],
+    "Stamina potion": [
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 77,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Super energy(1)",
+            "quantity": 1
+          },
+          {
+            "name": "Amylase crystal",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Stamina potion(1)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      },
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 77,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Super energy(2)",
+            "quantity": 1
+          },
+          {
+            "name": "Amylase crystal",
+            "quantity": 2
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Stamina potion(2)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      },
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 77,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Super energy(3)",
+            "quantity": 1
+          },
+          {
+            "name": "Amylase crystal",
+            "quantity": 3
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Stamina potion(3)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      },
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 77,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Super energy(4)",
+            "quantity": 1
+          },
+          {
+            "name": "Amylase crystal",
+            "quantity": 4
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Stamina potion(4)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      }
+    ],
+    "Super restore": [
+      {
+        "skills": [
+          {
+            "skill": "Herblore",
+            "level": 63,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Snapdragon potion (unf)",
+            "quantity": 1
+          },
+          {
+            "name": "Red spiders' eggs",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Super restore(3)",
+            "quantity": 1
+          }
+        ],
+        "ticks": "2"
+      }
+    ],
+    "Zombie axe": [
+      {
+        "skills": [
+          {
+            "skill": "Smithing",
+            "level": 70,
+            "boostable": true
+          }
+        ],
+        "inputs": [
+          {
+            "name": "Broken zombie axe",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Zombie axe",
+            "quantity": 1
+          }
+        ],
+        "facility": "Anvil",
+        "tools": "Hammer",
+        "ticks": "8"
+      }
+    ]
+  }
+}

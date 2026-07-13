@@ -1,0 +1,17 @@
+{
+  "kbVersion": 1,
+  "derivedCounts": {
+    "quests": 213,
+    "recipes": 7,
+    "sources": 10
+  },
+  "files": [
+    "quests.json",
+    "recipes.json",
+    "sources.json",
+    "goals.json",
+    "xp_rates.json",
+    "benchmarks.json",
+    "slayer.json"
+  ]
+}
