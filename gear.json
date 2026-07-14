@@ -1,0 +1,89 @@
+{
+  "kbVersion": 2,
+  "kind": "gear",
+  "data": {
+    "melee": [
+      {
+        "name": "Zombie axe",
+        "ids": [
+          28810
+        ]
+      },
+      {
+        "name": "Abyssal whip",
+        "ids": [
+          4151
+        ]
+      },
+      {
+        "name": "Osmumten's fang",
+        "ids": [
+          26219
+        ]
+      },
+      {
+        "name": "Soulreaper axe",
+        "ids": [
+          28338
+        ]
+      }
+    ],
+    "ranged": [
+      {
+        "name": "Magic shortbow (i)",
+        "ids": [
+          12788
+        ]
+      },
+      {
+        "name": "Toxic blowpipe",
+        "ids": [
+          12924,
+          12926
+        ]
+      },
+      {
+        "name": "Bow of faerdhinen (c)",
+        "ids": [
+          25867
+        ]
+      },
+      {
+        "name": "Twisted bow",
+        "ids": [
+          20997
+        ]
+      }
+    ],
+    "magic": [
+      {
+        "name": "Iban's staff (u)",
+        "ids": [
+          12658
+        ]
+      },
+      {
+        "name": "Trident of the seas",
+        "ids": [
+          11908,
+          11907,
+          11905
+        ]
+      },
+      {
+        "name": "Trident of the swamp",
+        "ids": [
+          12900,
+          12899
+        ]
+      },
+      {
+        "name": "Tumeken's shadow",
+        "ids": [
+          27277,
+          27275
+        ]
+      }
+    ]
+  }
+}

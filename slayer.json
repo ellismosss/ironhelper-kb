@@ -1,5 +1,5 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "kind": "slayer",
   "comment": "Master weightings + block/skip seed for the slayer advisor module. Weighting principle: never skip what gates the active goal.",
   "data": {

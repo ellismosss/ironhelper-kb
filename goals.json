@@ -1,5 +1,5 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "kind": "goals",
   "comment": "Hand-encoded 2026-meta goal graph seed (structure-first pass from the plan doc; content to be curated). Schema: kb/goal-node.schema.json. Weights: 10 = account-defining.",
   "data": [
@@ -9,12 +9,36 @@
       "category": "gear",
       "stage": "early",
       "weight": 8,
-      "requirements": {"type": "all", "children": [
-        {"type": "quest", "quest": "DEFENDER_OF_VARROCK"},
-        {"type": "skill", "skill": "ATTACK", "level": 65},
-        {"type": "skill", "skill": "SMITHING", "level": 65}
-      ]},
-      "notes": "2026 early-meta melee mainhand: broken zombie axe from armoured zombies, smith at 65 (boostable). Carries to whip-tier."
+      "requirements": {
+        "type": "all",
+        "children": [
+          {
+            "type": "quest",
+            "quest": "DEFENDER_OF_VARROCK"
+          },
+          {
+            "type": "skill",
+            "skill": "ATTACK",
+            "level": 65
+          }
+        ]
+      },
+      "notes": "2026 early-meta melee mainhand: broken zombie axe from armoured zombies, smith at 65 (boostable). Carries to whip-tier.",
+      "parts": [
+        {
+          "kind": "craft",
+          "item": "Zombie axe",
+          "why": "Smith from a broken zombie axe"
+        }
+      ],
+      "completedWhen": {
+        "type": "item",
+        "name": "Zombie axe",
+        "itemIds": [
+          28810
+        ],
+        "quantity": 1
+      }
     },
     {
       "id": "moons_of_peril_armour",
@@ -22,10 +46,21 @@
       "category": "gear",
       "stage": "early",
       "weight": 8,
-      "requirements": {"type": "quest", "quest": "PERILOUS_MOONS"},
+      "requirements": {
+        "type": "quest",
+        "quest": "PERILOUS_MOONS"
+      },
       "soft": [
-        {"type": "skill", "skill": "DEFENCE", "level": 40},
-        {"type": "kc", "boss": "lunar chest", "count": 100}
+        {
+          "type": "skill",
+          "skill": "DEFENCE",
+          "level": 40
+        },
+        {
+          "type": "kc",
+          "boss": "lunar chest",
+          "count": 100
+        }
       ],
       "notes": "Blood moon / blue moon / eclipse sets from Lunar Chests — early-game hybrid armour line, no GE needed."
     },
@@ -36,8 +71,16 @@
       "stage": "early",
       "weight": 7,
       "soft": [
-        {"type": "skill", "skill": "PRAYER", "level": 60},
-        {"type": "kc", "boss": "the royal titans", "count": 30}
+        {
+          "type": "skill",
+          "skill": "PRAYER",
+          "level": 60
+        },
+        {
+          "type": "kc",
+          "boss": "the royal titans",
+          "count": 30
+        }
       ],
       "notes": "Prayer scroll drops from the Royal Titans duo; cheap early power spike for ranged/magic."
     },
@@ -47,21 +90,72 @@
       "category": "quest",
       "stage": "mid",
       "weight": 9,
-      "requirements": {"type": "all", "children": [
-        {"type": "quest", "quest": "MOURNINGS_END_PART_II"},
-        {"type": "quest", "quest": "MAKING_HISTORY"},
-        {"type": "quest", "quest": "DRUIDIC_RITUAL"},
-        {"type": "skill", "skill": "AGILITY", "level": 70},
-        {"type": "skill", "skill": "CONSTRUCTION", "level": 70},
-        {"type": "skill", "skill": "FARMING", "level": 70},
-        {"type": "skill", "skill": "HERBLORE", "level": 70},
-        {"type": "skill", "skill": "HUNTER", "level": 70},
-        {"type": "skill", "skill": "MINING", "level": 70},
-        {"type": "skill", "skill": "SMITHING", "level": 70},
-        {"type": "skill", "skill": "WOODCUTTING", "level": 70}
-      ]},
-      "unlocks": ["corrupted_bowfa", "cg_practice_supplies"],
-      "notes": "Gateway to Prifddinas, Zalcano, Gauntlet. Quest prereqs beyond the direct three resolve from derived quests.json."
+      "requirements": {
+        "type": "all",
+        "children": [
+          {
+            "type": "quest",
+            "quest": "MOURNINGS_END_PART_II"
+          },
+          {
+            "type": "quest",
+            "quest": "MAKING_HISTORY"
+          },
+          {
+            "type": "quest",
+            "quest": "DRUIDIC_RITUAL"
+          },
+          {
+            "type": "skill",
+            "skill": "AGILITY",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "CONSTRUCTION",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "FARMING",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "HERBLORE",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "HUNTER",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "MINING",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "SMITHING",
+            "level": 70
+          },
+          {
+            "type": "skill",
+            "skill": "WOODCUTTING",
+            "level": 70
+          }
+        ]
+      },
+      "unlocks": [
+        "bowfa_corrupted",
+        "cg_practice_supplies"
+      ],
+      "notes": "Gateway to Prifddinas, Zalcano, Gauntlet. Quest prereqs beyond the direct three resolve from derived quests.json.",
+      "completedWhen": {
+        "type": "quest",
+        "quest": "SONG_OF_THE_ELVES"
+      }
     },
     {
       "id": "cg_practice_supplies",
@@ -70,26 +164,74 @@
       "stage": "mid",
       "weight": 5,
       "quantity": 20,
-      "requirements": {"type": "itemGroup", "group": "prayer_potion", "quantity": 20},
+      "requirements": {
+        "type": "itemGroup",
+        "group": "prayer_potion",
+        "quantity": 20
+      },
       "notes": "Consumables for learning attempts (CG itself is self-supplied inside). Re-enters the plan when stock depletes."
     },
     {
-      "id": "corrupted_bowfa",
+      "id": "bowfa_corrupted",
       "name": "Bow of faerdhinen (corrupted)",
       "category": "gear",
       "stage": "mid",
       "weight": 10,
-      "requirements": {"type": "quest", "quest": "SONG_OF_THE_ELVES"},
+      "requirements": {
+        "type": "quest",
+        "quest": "SONG_OF_THE_ELVES"
+      },
       "soft": [
-        {"type": "skill", "skill": "RANGED", "level": 78},
-        {"type": "skill", "skill": "DEFENCE", "level": 70},
-        {"type": "skill", "skill": "MAGIC", "level": 75}
+        {
+          "type": "skill",
+          "skill": "RANGED",
+          "level": 78
+        },
+        {
+          "type": "skill",
+          "skill": "DEFENCE",
+          "level": 70
+        },
+        {
+          "type": "skill",
+          "skill": "MAGIC",
+          "level": 75
+        }
       ],
       "alternatives": [
-        [{"type": "kc", "boss": "corrupted gauntlet", "count": 50}],
-        [{"type": "kc", "boss": "zalcano", "count": 150}]
+        [
+          {
+            "type": "kc",
+            "boss": "corrupted gauntlet",
+            "count": 50
+          }
+        ],
+        [
+          {
+            "type": "kc",
+            "boss": "zalcano",
+            "count": 150
+          }
+        ]
       ],
-      "notes": "The mid-game account pivot. Enhanced seed ~1/50 CG (alternatives = crystal shard sources for the corruption cost: CG runs or Zalcano)."
+      "notes": "The mid-game account pivot. Enhanced seed ~1/50 CG (alternatives = crystal shard sources for the corruption cost: CG runs or Zalcano).",
+      "parts": [
+        {
+          "kind": "craft",
+          "item": "Bow of faerdhinen (c)",
+          "why": "Create then corrupt at the singing bowl (decomposes via recipes: seed + 100 shards to sing, 2000 shards to corrupt)",
+          "feeShards": 250,
+          "feeWhy": "pay Conwenna/Reese 250 shards to sing without 82/82 Smithing/Crafting"
+        }
+      ],
+      "completedWhen": {
+        "type": "item",
+        "name": "Bow of faerdhinen (c)",
+        "itemIds": [
+          25867
+        ],
+        "quantity": 1
+      }
     },
     {
       "id": "toa_fang_first",
@@ -98,9 +240,21 @@
       "stage": "mid",
       "weight": 9,
       "soft": [
-        {"type": "skill", "skill": "RANGED", "level": 80},
-        {"type": "skill", "skill": "MAGIC", "level": 80},
-        {"type": "kc", "boss": "tombs of amascut", "count": 50}
+        {
+          "type": "skill",
+          "skill": "RANGED",
+          "level": 80
+        },
+        {
+          "type": "skill",
+          "skill": "MAGIC",
+          "level": 80
+        },
+        {
+          "type": "kc",
+          "boss": "tombs of amascut",
+          "count": 50
+        }
       ],
       "notes": "2026 raid ordering: fang-first ToA before CoX/ToB investment. Entry-level invocations viable pre-bowfa; scales after."
     },
@@ -110,12 +264,27 @@
       "category": "gear",
       "stage": "late",
       "weight": 9,
-      "requirements": {"type": "quest", "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"},
+      "requirements": {
+        "type": "quest",
+        "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"
+      },
       "soft": [
-        {"type": "skill", "skill": "MAGIC", "level": 90},
-        {"type": "skill", "skill": "RANGED", "level": 90}
+        {
+          "type": "skill",
+          "skill": "MAGIC",
+          "level": 90
+        },
+        {
+          "type": "skill",
+          "skill": "RANGED",
+          "level": 90
+        }
       ],
-      "notes": "Ultor/Magus/Venator/Bellator vestige grinds behind the four DT2 bosses."
+      "notes": "Ultor/Magus/Venator/Bellator vestige grinds behind the four DT2 bosses.",
+      "completedWhen": {
+        "type": "quest",
+        "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"
+      }
     },
     {
       "id": "yama_oathplate",
@@ -124,9 +293,21 @@
       "stage": "late",
       "weight": 9,
       "soft": [
-        {"type": "skill", "skill": "ATTACK", "level": 90},
-        {"type": "skill", "skill": "STRENGTH", "level": 90},
-        {"type": "kc", "boss": "yama", "count": 100}
+        {
+          "type": "skill",
+          "skill": "ATTACK",
+          "level": 90
+        },
+        {
+          "type": "skill",
+          "skill": "STRENGTH",
+          "level": 90
+        },
+        {
+          "type": "kc",
+          "boss": "yama",
+          "count": 100
+        }
       ],
       "notes": "2026 late-game melee line — Oathplate via Yama makes Bandos skippable entirely."
     },

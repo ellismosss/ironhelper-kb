@@ -1,0 +1,20 @@
+{
+  "kbVersion": 2,
+  "kind": "locations",
+  "comment": "Location-name -> WorldPoint for map guidance. Keys are lowercase matches of node location metadata (recipe facilities, drop sources, boss names). First-pass seed; curate freely.",
+  "data": {
+    "singing bowl": {"x": 3227, "y": 6079, "plane": 0, "note": "Prifddinas, Ithell district"},
+    "reward chest (the gauntlet) corrupted": {"x": 3227, "y": 6106, "plane": 2, "note": "The Gauntlet lobby, Prifddinas"},
+    "reward chest (the gauntlet) regular": {"x": 3227, "y": 6106, "plane": 2, "note": "The Gauntlet lobby, Prifddinas"},
+    "zalcano": {"x": 3282, "y": 6058, "plane": 0, "note": "Zalcano entrance, Prifddinas"},
+    "corrupted gauntlet": {"x": 3227, "y": 6106, "plane": 2, "note": "The Gauntlet lobby"},
+    "armoured zombie": {"x": 3239, "y": 9895, "plane": 0, "note": "Zemouregal's base, Varrock sewers"},
+    "anvil": {"x": 3188, "y": 3426, "plane": 0, "note": "Varrock west bank anvils"},
+    "blast furnace": {"x": 1940, "y": 4962, "plane": 0, "note": "Keldagrim"},
+    "motherlode mine": {"x": 3745, "y": 5662, "plane": 0, "note": "Falador dwarven mine"},
+    "lunar chest": {"x": 1512, "y": 9578, "plane": 0, "note": "Neypotzli, Moons of Peril"},
+    "the royal titans": {"x": 2955, "y": 9578, "plane": 0, "note": "Giants' Foundry area entrance"},
+    "tombs of amascut": {"x": 3358, "y": 9110, "plane": 0, "note": "Necropolis"},
+    "yama": {"x": 1510, "y": 10080, "plane": 0, "note": "The Delve"}
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "kind": "benchmarks",
   "comment": "Soft readiness bands — advisory only, rendered differently, never gating. All requirements implicitly soft.",
   "data": [

@@ -1,17 +1,249 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "kind": "xp_rates",
   "comment": "skill x level-band x unlock-gates -> method + xp/hr. First-pass seed; rates to be curated. gates use the requirement schema.",
   "data": [
-    {"skill": "AGILITY", "bandMin": 1, "bandMax": 47, "method": "Quests (recommended) then rooftop courses", "xpHr": 12000, "gates": []},
-    {"skill": "AGILITY", "bandMin": 48, "bandMax": 69, "method": "Falador -> Seers rooftops (Kandarin hard diary later)", "xpHr": 45000, "gates": []},
-    {"skill": "AGILITY", "bandMin": 70, "bandMax": 99, "method": "Hallowed Sepulchre (GP+xp) or Seers w/ diary", "xpHr": 65000, "gates": [{"type": "quest", "quest": "SINS_OF_THE_FATHER"}]},
-    {"skill": "HERBLORE", "bandMin": 1, "bandMax": 37, "method": "Quests (Druidic Ritual start) + attack potions from farm runs", "xpHr": 15000, "gates": [{"type": "quest", "quest": "DRUIDIC_RITUAL"}]},
-    {"skill": "HERBLORE", "bandMin": 38, "bandMax": 69, "method": "Prayer potions from ranarr farm runs; hunter rumours herbs", "xpHr": 40000, "gates": []},
-    {"skill": "CRAFTING", "bandMin": 46, "bandMax": 99, "method": "Superglass Make w/ giant seaweed + buckets of sand", "xpHr": 100000, "gates": [{"type": "quest", "quest": "LUNAR_DIPLOMACY"}]},
-    {"skill": "WOODCUTTING", "bandMin": 35, "bandMax": 99, "method": "Teak chop-and-drop / Forestry events for variety", "xpHr": 85000, "gates": []},
-    {"skill": "FISHING", "bandMin": 58, "bandMax": 99, "method": "Barbarian fishing (agi/str shared xp)", "xpHr": 50000, "gates": [{"type": "skill", "skill": "AGILITY", "level": 30}]},
-    {"skill": "MINING", "bandMin": 30, "bandMax": 70, "method": "Motherlode Mine (prospector + nuggets)", "xpHr": 33000, "gates": []},
-    {"skill": "SMITHING", "bandMin": 40, "bandMax": 99, "method": "Blast Furnace gold w/ goldsmith gauntlets", "xpHr": 250000, "gates": [{"type": "quest", "quest": "FAMILY_CREST"}]}
+    {
+      "skill": "AGILITY",
+      "bandMin": 1,
+      "bandMax": 47,
+      "method": "Quests (recommended) then rooftop courses",
+      "xpHr": 12000,
+      "gates": []
+    },
+    {
+      "skill": "AGILITY",
+      "bandMin": 48,
+      "bandMax": 71,
+      "method": "Falador -> Seers rooftops (Kandarin hard diary later)",
+      "xpHr": 45000,
+      "gates": []
+    },
+    {
+      "skill": "AGILITY",
+      "bandMin": 72,
+      "bandMax": 99,
+      "method": "Hallowed Sepulchre (GP+xp)",
+      "xpHr": 65000,
+      "gates": [
+        {
+          "type": "quest",
+          "quest": "SINS_OF_THE_FATHER"
+        }
+      ]
+    },
+    {
+      "skill": "AGILITY",
+      "bandMin": 72,
+      "bandMax": 99,
+      "method": "Seers rooftops w/ diary fallback",
+      "xpHr": 52000,
+      "gates": []
+    },
+    {
+      "skill": "HERBLORE",
+      "bandMin": 1,
+      "bandMax": 37,
+      "method": "Quests (Druidic Ritual start) + attack potions from farm runs",
+      "xpHr": 15000,
+      "gates": [
+        {
+          "type": "quest",
+          "quest": "DRUIDIC_RITUAL"
+        }
+      ]
+    },
+    {
+      "skill": "HERBLORE",
+      "bandMin": 38,
+      "bandMax": 62,
+      "method": "Prayer potions from ranarr farm runs; hunter rumours herbs",
+      "xpHr": 40000,
+      "gates": []
+    },
+    {
+      "skill": "HERBLORE",
+      "bandMin": 63,
+      "bandMax": 99,
+      "method": "Super restores / brews from farm+kingdom stock",
+      "xpHr": 55000,
+      "gates": []
+    },
+    {
+      "skill": "CRAFTING",
+      "bandMin": 1,
+      "bandMax": 45,
+      "method": "Glassblowing + gem cutting from Shilo/kingdom",
+      "xpHr": 30000,
+      "gates": []
+    },
+    {
+      "skill": "CRAFTING",
+      "bandMin": 46,
+      "bandMax": 99,
+      "method": "Superglass Make w/ giant seaweed + buckets of sand",
+      "xpHr": 100000,
+      "gates": [
+        {
+          "type": "quest",
+          "quest": "LUNAR_DIPLOMACY"
+        }
+      ]
+    },
+    {
+      "skill": "CRAFTING",
+      "bandMin": 46,
+      "bandMax": 99,
+      "method": "Glassblowing (no Lunars yet)",
+      "xpHr": 55000,
+      "gates": []
+    },
+    {
+      "skill": "WOODCUTTING",
+      "bandMin": 1,
+      "bandMax": 34,
+      "method": "Trees -> oaks -> willows",
+      "xpHr": 25000,
+      "gates": []
+    },
+    {
+      "skill": "WOODCUTTING",
+      "bandMin": 35,
+      "bandMax": 99,
+      "method": "Teak chop-and-drop / Forestry events for variety",
+      "xpHr": 85000,
+      "gates": []
+    },
+    {
+      "skill": "FISHING",
+      "bandMin": 1,
+      "bandMax": 57,
+      "method": "Quests (Sea Slug/Fishing Contest) then fly fishing",
+      "xpHr": 25000,
+      "gates": []
+    },
+    {
+      "skill": "FISHING",
+      "bandMin": 58,
+      "bandMax": 99,
+      "method": "Barbarian fishing (agi/str shared xp)",
+      "xpHr": 50000,
+      "gates": [
+        {
+          "type": "skill",
+          "skill": "AGILITY",
+          "level": 30
+        }
+      ]
+    },
+    {
+      "skill": "MINING",
+      "bandMin": 1,
+      "bandMax": 29,
+      "method": "Quests (Doric/Plague City) then iron",
+      "xpHr": 20000,
+      "gates": []
+    },
+    {
+      "skill": "MINING",
+      "bandMin": 30,
+      "bandMax": 71,
+      "method": "Motherlode Mine (prospector + nuggets)",
+      "xpHr": 33000,
+      "gates": []
+    },
+    {
+      "skill": "MINING",
+      "bandMin": 72,
+      "bandMax": 99,
+      "method": "Motherlode upper level / amethyst for supplies",
+      "xpHr": 38000,
+      "gates": []
+    },
+    {
+      "skill": "SMITHING",
+      "bandMin": 1,
+      "bandMax": 39,
+      "method": "Quests (Knight’s Sword +12k xp) then bronze/iron",
+      "xpHr": 18000,
+      "gates": []
+    },
+    {
+      "skill": "SMITHING",
+      "bandMin": 40,
+      "bandMax": 99,
+      "method": "Blast Furnace gold w/ goldsmith gauntlets",
+      "xpHr": 250000,
+      "gates": [
+        {
+          "type": "quest",
+          "quest": "FAMILY_CREST"
+        }
+      ]
+    },
+    {
+      "skill": "SMITHING",
+      "bandMin": 40,
+      "bandMax": 99,
+      "method": "Blast Furnace steel/mithril (no Family Crest)",
+      "xpHr": 80000,
+      "gates": []
+    },
+    {
+      "skill": "CONSTRUCTION",
+      "bandMin": 1,
+      "bandMax": 51,
+      "method": "Planks -> oak chairs (kingdom/WC oak logs)",
+      "xpHr": 40000,
+      "gates": []
+    },
+    {
+      "skill": "CONSTRUCTION",
+      "bandMin": 52,
+      "bandMax": 99,
+      "method": "Oak larders (butler)",
+      "xpHr": 90000,
+      "gates": []
+    },
+    {
+      "skill": "FARMING",
+      "bandMin": 1,
+      "bandMax": 34,
+      "method": "Bagged plants + low tree runs",
+      "xpHr": 20000,
+      "gates": []
+    },
+    {
+      "skill": "FARMING",
+      "bandMin": 35,
+      "bandMax": 99,
+      "method": "Daily tree + fruit tree + herb runs (passive)",
+      "xpHr": 45000,
+      "gates": []
+    },
+    {
+      "skill": "HUNTER",
+      "bandMin": 1,
+      "bandMax": 42,
+      "method": "Birdhouse runs (passive) + varrock museum",
+      "xpHr": 15000,
+      "gates": []
+    },
+    {
+      "skill": "HUNTER",
+      "bandMin": 43,
+      "bandMax": 56,
+      "method": "Falconry",
+      "xpHr": 40000,
+      "gates": []
+    },
+    {
+      "skill": "HUNTER",
+      "bandMin": 57,
+      "bandMax": 99,
+      "method": "Red chinchompas / hunter rumours (moonlight moths meta)",
+      "xpHr": 80000,
+      "gates": []
+    }
   ]
 }

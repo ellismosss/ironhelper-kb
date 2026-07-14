@@ -1,0 +1,52 @@
+{
+  "kbVersion": 2,
+  "kind": "grind_rates",
+  "comment": "Minutes per attempt/kill for grind-effort estimates. Keys are lowercase: either sources.json source names or kc-requirement boss names. First-pass estimates; curate freely.",
+  "data": {
+    "reward chest (the gauntlet) corrupted": {
+      "minutesPerAttempt": 8
+    },
+    "reward chest (the gauntlet) regular": {
+      "minutesPerAttempt": 11
+    },
+    "corrupted gauntlet": {
+      "minutesPerAttempt": 8
+    },
+    "the gauntlet": {
+      "minutesPerAttempt": 11
+    },
+    "zalcano": {
+      "minutesPerAttempt": 4
+    },
+    "lunar chest": {
+      "minutesPerAttempt": 5
+    },
+    "the royal titans": {
+      "minutesPerAttempt": 5
+    },
+    "tombs of amascut": {
+      "minutesPerAttempt": 45
+    },
+    "yama": {
+      "minutesPerAttempt": 12
+    },
+    "armoured zombie": {
+      "minutesPerAttempt": 1.5
+    },
+    "clog:bosses": {
+      "minutesPerAttempt": 8
+    },
+    "clog:raids": {
+      "minutesPerAttempt": 40
+    },
+    "clog:clues": {
+      "minutesPerAttempt": 12
+    },
+    "clog:minigames": {
+      "minutesPerAttempt": 15
+    },
+    "clog:other": {
+      "minutesPerAttempt": 10
+    }
+  }
+}

@@ -1,8 +1,11 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "kind": "sources",
   "data": {
     "Bow of faerdhinen": {
+      "drops": []
+    },
+    "Bow of faerdhinen (c)": {
       "drops": []
     },
     "Broken zombie axe": {

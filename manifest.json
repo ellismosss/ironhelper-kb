@@ -1,9 +1,9 @@
 {
-  "kbVersion": 1,
+  "kbVersion": 2,
   "derivedCounts": {
     "quests": 213,
-    "recipes": 7,
-    "sources": 10
+    "recipes": 8,
+    "sources": 11
   },
   "files": [
     "quests.json",
@@ -12,6 +12,9 @@
     "goals.json",
     "xp_rates.json",
     "benchmarks.json",
-    "slayer.json"
+    "slayer.json",
+    "grind_rates.json",
+    "locations.json",
+    "gear.json"
   ]
 }

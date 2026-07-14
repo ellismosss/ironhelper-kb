@@ -29,6 +29,10 @@
       "$ref": "#/definitions/requirement",
       "description": "HARD gate, serialised engine requirement tree."
     },
+    "completedWhen": {
+      "$ref": "#/definitions/requirement",
+      "description": "The goal's own completion criterion (owning the item, quest finished). Omitted = the recommender never classifies it COMPLETE."
+    },
     "soft": {
       "type": "array",
       "items": {"$ref": "#/definitions/requirement"},
@@ -49,7 +53,22 @@
       "minimum": 1,
       "description": "For consumable/supply nodes: how many."
     },
-    "notes": {"type": "string"}
+    "notes": {"type": "string"},
+    "parts": {
+      "type": "array",
+      "description": "Structured expansion steps the resolver decomposes.",
+      "items": {
+        "type": "object",
+        "required": ["kind", "item"],
+        "properties": {
+          "kind": {"enum": ["craft"], "description": "craft: decompose via recipes.json (inputs recurse into crafts, grinds, or supplies)"},
+          "item": {"type": "string", "description": "recipes.json key"},
+          "why": {"type": "string"},
+          "feeShards": {"type": "integer", "description": "optional crystal-shard fee alternative to the recipe's skill levels"},
+          "feeWhy": {"type": "string"}
+        }
+      }
+    }
   },
   "definitions": {
     "requirement": {
